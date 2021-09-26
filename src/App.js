@@ -1,13 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Register from "./pages/registerpages";
+import Register from "./pages/registerpages/Register";
 
 function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/regiser" component={Register} />
+        <Route exact path="/regiser">
+          <Register />
+        </Route>
       </Switch>
     </Router>
   );

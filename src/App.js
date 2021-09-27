@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Register from "./pages/login/Login";
+import Register from "./pages/profile/Profile";
 
 function App() {
   return (
